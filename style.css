@@ -1,0 +1,74 @@
+
+        body{
+            background-image: url("Gradient_builder_2.jpg");
+            background-repeat:no-repeat;
+            /*background-attachment: fixed;*/
+            background-size: cover;
+        }
+        /*img.center{
+            position:relative;
+            left: 600px;
+            right: 600px;
+            top: 300px;
+            
+        }*/
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 250px;
+            margin-bottom: auto;
+           
+        }
+        .text1{
+            direction: rtl;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            color: rgb(0, 42, 255);
+           /* position: static;*/
+            font-size: 20px;
+        }
+        #button1{
+            color: white;
+            background-color:rgb(70, 216, 216);
+            border-radius: 12px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            display: block;
+            font-size: 24px;
+            text-align: center;
+            position: relative;
+          
+        }
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+       .navbar{
+           background-color: blue;
+       }
+      .navbar-list{
+          list-style: none;
+      }
+      .navbar-item{
+          display: inline-block;
+          height: 50px;
+          width: 8rem;
+          line-height: 50px;
+          text-align: center;
+
+      }
+      .navbar-link{
+          text-decoration: none;
+          color: aliceblue;
+          display: block;
+      }
+      .navbar-item:hover{
+          background-color: blue;
+          transition: 0.3s;
+      }
+        
+   
